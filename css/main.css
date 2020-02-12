@@ -5,7 +5,7 @@
 }
 /* Nav bakground */
 .topnav {
-  background-color: #333;
+  background-color: rgb(228, 218, 218);
   overflow: hidden;
   width: 100%;
 }
@@ -19,22 +19,23 @@
   padding: 16px 50px;
   text-decoration: none;
   font-size: 20px;
+  color: black;
 }
 
 /* Link hover color */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: rgb(212, 206, 206);
   color: black;
 }
 
 /* Current page highlight */
 .topnav a.active {
-  background-color: #4caf50;
+  background-color: #ff0095;
   color: white;
 }
 .searchbar {
   height: 50px;
-  background-color: #4caf50;
+  background-color: #ff0095;
   width: 100%;
   align-items: left;
 }
@@ -110,7 +111,7 @@ input[type="text"] {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #4caf50;
+  background-color: #ff0095;
   color: white;
   opacity: 60%;
   padding-top: 5px;
